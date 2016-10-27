@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/mainactivity_titleybar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainactivity_titlebar_height"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/mainactivity_titlebar_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"/>
+
+        <RelativeLayout
+            android:id="@+id/mainactivity_titlebar_right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"/>
+
+        <RelativeLayout
+            android:id="@+id/mainactivity_titlebar_center_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/mainactivity_mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange"/>
+</LinearLayout>
